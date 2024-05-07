@@ -4,11 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte para todo o documento */
+            font-size: 16px; /* Define o tamanho da fonte */
+            line-height: 1.5; /* Define o espaçamento entre linhas */
+            background-color: #f7f7f7; /* Define a cor de fundo do corpo */
+            margin: 0; /* Remove margens padrão */
+            padding: 0; /* Remove preenchimentos padrão */
+            display: flex; /* Usa o modelo de caixa flexível para centralizar o conteúdo verticalmente */
+            flex-direction: column; /* Alinha o conteúdo verticalmente */
+            align-items: center; /* Centraliza o conteúdo horizontalmente */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+
+        h1 {
+            margin-top: 20px; /* Adiciona espaço acima do título */
+        }
+
+        img {
+            width: 1000px; /* Largura da imagem */
+            height: 700px; /* Altura da imagem */
+            image-rendering: pixelated; /* Melhora a qualidade da imagem */
+            margin-top: 20px; /* Adiciona espaço acima da imagem */
+        }
+
+        p {
+            margin-top: 10px; /* Adiciona espaço acima dos parágrafos */
+            margin-left: 20px; /* Adiciona margem à esquerda */
+            margin-right: 20px; /* Adiciona margem à direita */
+        }
+
+        h4 {
+            margin-top: 20px; /* Adiciona espaço acima dos subtítulos */
+        }
+
+        a {
+            text-decoration: none; /* Remove sublinhado padrão dos links */
+        }
+
+        button {
+            background-color: #007bff; /* Cor de fundo do botão */
+            color: #fff; /* Cor do texto do botão */
+            border: none; /* Remove a borda do botão */
+            padding: 10px 20px; /* Espaçamento interno do botão */
+            font-size: 16px; /* Tamanho da fonte do botão */
+            cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+            transition: background-color 0.3s; /* Adiciona uma transição suave para a cor de fundo */
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Altera a cor de fundo do botão ao passar o mouse */
+        }
+    </style>
 </head>
-<body  style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">
-    <h1>Tutorial de como usar o  Word</h1>
+<body>
+    <h1>Tutorial de como usar o Word</h1>
+
+    <img src="cap.png" alt="Tutorial do Word">
+
     <p>1- Barra de Título: Exibe o nome do arquivo do Documento que está editora e o nome do software que você usando. e também inclui os botões padrão Minimizar, restaurar e fechar.</p>
-    <img src="cap.png" style="width: 1000px; height: 700px;">
     <p>2- Barra de Ferramentas de acesso rápido: comandos que são usados com frequencia, como salvar, Desfazer e Refazer.</p>
     <p>3- Guia arquivo: Clique neste botão para encontrar comandos que atuam no próprio documento, em vez do conteúdo do documento, como Novo, Abrir, Salvar como, Imprimir e Fechar.  </p>
     <p>4- Faixa de Opções: Os comandos necessários para seu trabalho estão localizados aqui. Word compactará a faixa de opções alterando o arranjo dos controles para acomodar monitores menores.</p>
@@ -16,17 +71,15 @@
     <p>6- Barra de Rolagem: Permite alterar a posição de exibição do documento que você está editando.</p>
     <p>7- Barra de status: Exibe informações sobre o Documeno que você está editando.</p>
     <p>8- Controle de slide do zoom: Permite alterar as configurações de zoom do documento que você está editando.</p>
-     <h4>Editar e formatar texto</h4>
-     <p>Antes de editar ou formatar texto, primeiro você deve selecionar o texto.</p>
-     <img src="editar.png" style="width: 1000px; height: 700px;">
-     <p>1- Esta é a guia Pagína Inicial. </p>
-     <p>2- Este é o grupo Fonte na Guia Pagina Inicial.</p>
-     <p>3- Este é o botão Negrito. Confira tabela abaixo para os nomes e funções de todos os botões no grupo fonte.</p>
-     <img src="Tabela.png" style="width: 750px; height: 500pzx;">
+    <h4>Editar e formatar texto</h4>
+    <p>Antes de editar ou formatar texto, primeiro você deve selecionar o texto.</p>
 
-     <center><a href="index.html"> <button> Voltar</button></a></center>
-     
+    <img src="editar.png" alt="Guia Página Inicial">
 
-
+    <p>1- Esta é a guia Página Inicial.</p>
+    <p>2- Este é o grupo Fonte na Guia Pagina Inicial.</p>
+    <p>3- Este é o botão Negrito. Confira tabela abaixo para os nomes e funções de todos os botões no grupo fonte.</p>
+    <img src="Tabela.png" style="width: 750px; height: 500pzx;">
+    <a href="index.html"><button>Voltar</button></a>
 </body>
 </html>

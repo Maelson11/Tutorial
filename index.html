@@ -5,24 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorial</title>
     <style>
-        body{ 
-            background-color: rgb(255, 255, 255);
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte para todo o documento */
+            background-color: #f7f4f4; /* Define a cor de fundo do corpo */
+            margin: 0; /* Remove margens padrão */
+            padding: 0; /* Remove preenchimentos padrão */
+            display: flex; /* Usa o modelo de caixa flexível para centralizar o conteúdo verticalmente */
+            justify-content: center; /* Centraliza o conteúdo horizontalmente */
+            align-items: center; /* Centraliza o conteúdo verticalmente */
+            height: 100vh; /* Faz o corpo ocupar toda a altura da tela */
+        }
+
+        .container {
+            text-align: center; /* Centraliza o texto */
+        }
+
+        img {
+            width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+            image-rendering: pixelated; /* Melhora a qualidade da imagem */
+            margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+        }
+
+        button {
+            background-color: #007bff; /* Cor de fundo do botão */
+            color: #fff; /* Cor do texto do botão */
+            border: none; /* Remove a borda do botão */
+            padding: 10px 20px; /* Espaçamento interno do botão */
+            font-size: 16px; /* Tamanho da fonte do botão */
+            cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+            transition: background-color 0.3s; /* Adiciona uma transição suave para a cor de fundo */
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Altera a cor de fundo do botão ao passar o mouse */
         }
     </style>
 </head>
 <body>
 
-
-      <center><img src="capa.webp" style="width: 750px; height: 500px;"></center>
-  
-      <center><a href="excel.html"> <button>Excel</button></a></center>
-
-
-     <center><a href="Word.html"> <button>Word</button></a></center>
-
-
-     <center><a href="Power point.html"><button>Power Point</button></a></center>
-
+<div class="container">
+    <img src="capa.webp" alt="Capa">
+    <div>
+        <a href="excel.html"><button>Excel</button></a>
+        <a href="word.html"><button>Word</button></a>
+        <a href="Power point.html"><button>Power Point</button></a>
+    </div>
+</div>
 
 </body>
 </html>
